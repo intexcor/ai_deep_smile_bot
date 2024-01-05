@@ -1,0 +1,2 @@
+deepface
+aiogram==2.25.2
