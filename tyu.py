@@ -10,7 +10,7 @@ from aiogram.dispatcher import Dispatcher
 from deepface import DeepFace
 
 # Ваши токен бота и инициализация
-BOT_TOKEN = '6383194282:AAGhr2fzQmZxj3qe5h1oae51IV8BeGznd3c'
+BOT_TOKEN = 'your_token'
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher(bot)
 
