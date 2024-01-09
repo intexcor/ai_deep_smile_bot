@@ -61,8 +61,6 @@ async def handle_photo(message: types.Message):
 def analyze_emotions(image_file):
 
     result = DeepFace.analyze(img_path=image_file, actions=['emotion'], detector_backend='retinaface')
-    global res
-    res = result[0]['emotion']
     return result[0]['emotion']
 
 
