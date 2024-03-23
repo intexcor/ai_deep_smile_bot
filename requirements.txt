@@ -1,2 +1,5 @@
-deepface
-aiogram==2.25.2
+python-dotenv~=1.0.1
+aiogram~=3.4.1
+deepface~=0.0.89
+aiohttp~=3.9.3
+tf-keras~=2.16.0

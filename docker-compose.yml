@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  bot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python srs/main.py
+    volumes:
+      - .:/app
+    env_file:
+      - .env
