@@ -22,8 +22,8 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 ## Clone the repo
 ```bash
-git clone <repo url>
-cd <repo dir>
+git clone [<repo url>](https://github.com/intexcor/ai_deep_smile_bot.git)
+cd ai_deep_smile_bot
 ```
 
 ## Copy and edit .env file
